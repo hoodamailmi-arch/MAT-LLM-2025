@@ -7,6 +7,8 @@
 
 [Introductory notebook](./nb01_basicChatbot.ipynb)
 
-## [TODO] Langchain LLM with structured output
+## Review Langchain LLM with structured output
 
+[A Notebook Demonstrating LLM structured output](./nb02_structuredLLM_output.ipynb)
 
+## [TODO] A Graph with conditional branching
