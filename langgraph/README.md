@@ -1,13 +1,12 @@
-Official documentation
-
-https://langchain-ai.github.io/langgraph/concepts/why-langgraph/
+[Official documentation](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/)
 
 # Basic Chatbot
+[Official Reference](https://langchain-ai.github.io/langgraph/tutorials/get-started/1-build-basic-chatbot/)
 
-https://langchain-ai.github.io/langgraph/tutorials/get-started/1-build-basic-chatbot/
+## Basic Chatbot
 
-## Basic Chatbot: notebook
+[Introductory notebook](./nb01_basicChatbot.ipynb)
 
-
+## [TODO] Langchain LLM with structured output
 
 
