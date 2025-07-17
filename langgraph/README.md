@@ -19,3 +19,6 @@
 - A Graph with conditional branching
 
     [Notebook demonstrating conditional branching](./nb03_conditionalBranching.ipynb)
+
+# Graph with tools
+  [Documentation](https://langchain-ai.github.io/langgraph/tutorials/get-started/2-add-tools/)
