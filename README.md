@@ -245,7 +245,7 @@ This project is part of academic coursework for MAT496.
 
 ## 📞 Contact
 
-**Student:** Soumy Hooda  
+**Student:** Soumya Hooda  
 **Email:** hoodamailmi@gmail.com  
 **GitHub:** [@hoodamailmi-arch](https://github.com/hoodamailmi-arch)
 
