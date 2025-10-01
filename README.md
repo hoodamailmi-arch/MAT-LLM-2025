@@ -39,22 +39,51 @@ This repository tracks my journey through building production-ready LLM applicat
 #### 💻 Daily Updates
 
 <details>
-<summary><b>📅 Day 1 (Oct 01)</b> - Environment Setup</summary>
+<summary><b>📅 Day 1 (Oct 01)</b> - Environment Setup & First LangChain Models</summary>
 
 **✅ Completed:**
 - Initialized Git repository
 - Set up SSH authentication with GitHub
 - Configured Python virtual environment
-- Installed core dependencies: `langchain`, `python-dotenv`, `openai`
+- Installed core dependencies: `langchain`, `python-dotenv`, `langchain-groq`
+- Successfully integrated Groq API for LLM access
+- Implemented basic model invocation with `llama-3.3-70b-versatile`
+- Explored streaming responses for real-time token generation
+- Experimented with multi-turn conversations using SystemMessage and HumanMessage
+- Tested multiple Groq models including `meta-llama/llama-4-maverick-17b-128e-instruct`
 
-**📝 Notes:**
-- Resolved GitHub authentication issues by switching to SSH
-- Base environment ready for development
+**🧪 Experiments Conducted:**
+1. **Basic Model Calls** - Simple prompt-response interactions
+2. **Context-aware Conversations** - System prompts for translation (English → Bengali)
+3. **Code Generation** - Prompted model to generate Python code for algorithmic tasks
+4. **Streaming Responses** - Implemented token-by-token streaming with time delays
+5. **Multi-Model Comparison** - Initialized and compared different Llama models
+
+**💡 Key Learnings:**
+- LangChain abstracts model initialization across providers (Groq, OpenAI, etc.)
+- `init_chat_model()` provides a unified interface for different LLM backends
+- Streaming enables real-time user feedback for longer responses
+- SystemMessage sets context/behavior, HumanMessage represents user input
+
+**📝 Code Highlights:**
+```python
+# Model initialization with Groq
+model = init_chat_model("llama-3.3-70b-versatile", model_provider="groq")
+
+# Conversational pattern with context
+messages = [
+    SystemMessage("Generate python code for given tasks"),
+    HumanMessage("Find max of given n numbers"),
+]
+response = model.invoke(messages)
+```
 
 **🔗 Commits:**
-- `abc1234` - Initial project setup
+- `[hash]` - Initial project setup with SSH
+- `[hash]` - First LangChain implementation with Groq models
+- `[hash]` - Added streaming and multi-model experiments
 
-**⏰ Time Spent:** 2 hours
+**⏰ Time Spent:** 4 hours
 
 </details>
 
@@ -68,7 +97,7 @@ This repository tracks my journey through building production-ready LLM applicat
 - [What you're currently working on]
 
 **🔗 Commits:**
-- `xyz5678` - [Commit description]
+- `[hash]` - [Commit description]
 
 **⏰ Time Spent:** [hours]
 
