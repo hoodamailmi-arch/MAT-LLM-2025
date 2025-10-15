@@ -4,7 +4,7 @@
 ---
 
 ## 📚 Course Overview
-
+#
 This repository tracks my journey through building production-ready LLM applications using the LangChain ecosystem. The course culminates in a capstone project: developing an AI-powered research assistant.
 
 ### Core Learning Modules
